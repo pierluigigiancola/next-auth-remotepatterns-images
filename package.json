@@ -1,14 +1,27 @@
 {
   "name": "next-auth-remotepatterns-images",
   "version": "0.1.0",
-  "main": "dist/index.js",
+  "author": "Pierluigi Giancola",
+  "main": "dist/index.cjs",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "next",
+    "nextjs",
+    "next-config",
+    "next-auth",
+    "remotepatterns",
+    "next-images",
+    "next-optimized-images"
+  ],
   "scripts": {
     "dev": "tsup index.ts --watch",
     "build": "tsup index.ts --format esm,cjs --sourcemap --dts"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "tsup": "^8.2.2",
     "typescript": "^5.5.2"
   }
