@@ -1,0 +1,15 @@
+{
+  "name": "next-auth-remotepatterns-images",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsup index.ts --watch",
+    "build": "tsup index.ts --format esm,cjs --sourcemap --dts"
+  },
+  "devDependencies": {
+    "tsup": "^8.2.2",
+    "typescript": "^5.5.2"
+  }
+}
