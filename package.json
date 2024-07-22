@@ -18,7 +18,9 @@
   ],
   "scripts": {
     "dev": "tsup index.ts --watch",
-    "build": "tsup index.ts --format esm,cjs --sourcemap --dts"
+    "build": "tsup index.ts --format esm,cjs --sourcemap --dts",
+    "ci": "pnpm run build",
+    "release": "pnpm run ci && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
