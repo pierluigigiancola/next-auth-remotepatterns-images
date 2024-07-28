@@ -9,7 +9,7 @@ export const providerRemotePatterns = Object.fromEntries(
 
 function remotePatterns(providers: [() => unknown]) {
   return providers
-    .map((provider) => providerRemotePatterns[provider.name])
+    .flatMap((provider) => providerRemotePatterns[provider.name])
     .filter(Boolean);
 }
 
