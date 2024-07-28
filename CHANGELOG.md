@@ -1,5 +1,11 @@
 # next-auth-remotepatterns-images
 
+## 0.3.0
+
+### Minor Changes
+
+- 5133922: Allow multiple config for each provider and flatMap it
+
 ## 0.2.1
 
 ### Patch Changes

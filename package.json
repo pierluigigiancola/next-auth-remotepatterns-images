@@ -1,6 +1,6 @@
 {
   "name": "next-auth-remotepatterns-images",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": "Pierluigi Giancola",
   "main": "dist/index.js",
   "module": "dist/index.js",
